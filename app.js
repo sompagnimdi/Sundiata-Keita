@@ -10,13 +10,15 @@ openModalButtons.forEach(button =>{
     })
 
 })
-
+// styling the overlay
 overlay.addEventListener('click', () => {
     const moadls = document.querySelectorAll('.modal.active')
     moadls.forEach(modal => {
         closeModal(modal)
     })
 })
+
+//function that closes the modal button
 
 closeModalButtons.forEach(button =>{
     button.addEventListener('click', => {
@@ -44,7 +46,6 @@ function closeModal(modal) {
 
 
 
-//
 
 
 
@@ -52,19 +53,4 @@ function closeModal(modal) {
 
 
 
-
-//
-
-
-
-
-
-
-
-//next or previous button selection
-
-
-
-
-//reset button would appear at the end of the story
 
